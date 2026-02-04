@@ -18,19 +18,23 @@ The trained machine learning model is deployed on **AWS EC2** and accessed throu
 
 ## Project Structure
 
-'''Sentiment-Analysis/
+
+<pre>
+Sentiment-Analysis/
 ├── app/
-│ └── flask_app.py
+│   └── flask_app.py
 ├── src/
-│ ├── preprocess.py
-│ └── train_model.py
+│   ├── preprocess.py
+│   └── train_model.py
 ├── models/
-│ ├── sentiment_model.pkl
-│ └── tfidf_vectorizer.pkl
+│   ├── sentiment_model.pkl
+│   └── tfidf_vectorizer.pkl
 ├── data/
-│ └── data.csv
+│   └── data.csv
 ├── requirements.txt
-└── README.md'''
+└── README.md
+</pre>
+
 
 
 ---
